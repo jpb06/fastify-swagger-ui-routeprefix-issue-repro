@@ -1,0 +1,20 @@
+{
+  "name": "fastify-swagger-ui-routeprefix-issue-repro",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun ./src/server.ts"
+  },
+  "dependencies": {
+    "@fastify/swagger": "9.2.0",
+    "@fastify/swagger-ui": "5.1.0",
+    "fastify": "5.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.3",
+    "@types/bun": "latest"
+  }
+}
